@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 :root {
   --primary-clr: #00492c;
   --primary-clr1: #002f04;
@@ -27,14 +28,19 @@
 }
 
 .header {
-width: 100%;
-height: 300px;
-background: var(--primary-clr);
+  font-family: 'Dancing Script';  
+  src: url(DancingScript-VariableFont_wght.ttf);
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 20px;
+  width: 100%;
+  background: var(--primary-clr); 
+  color: white;
 }
 
 .wapper {
-  width: flex;     
-  min-height: 400px;
+  width: 30%;     
+  min-height: flex;
   background-color: #fff;
   padding: 25px;
   width: 100%;
@@ -142,15 +148,13 @@ background: var(--primary-clr);
 body {
   position: relative;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #d3ffed;
 }
 .container {
   position: relative;
-  width: 1800px;
-  min-height: 800px;
+  width: 1400px;
+  max-height: 900px;
   margin: 0 auto;
   padding: 25px;
   color: #fff;
@@ -669,13 +673,13 @@ body {
 
 .wap1{
   background-color: #fff;
-  height: 25px;
+  height: 3.5%;
 }
 
 .wap {
   background-color: #d3ffed;
   padding: 1rem;
-  min-height: 400px;
+  min-height: 44%;
   border-radius: 15px;
   
 }
