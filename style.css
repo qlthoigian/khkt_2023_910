@@ -25,6 +25,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+width: 100%;
+height: 300px;
+background: var(--primary-clr);
+}
+
 .wapper {
   width: flex;     
   min-height: 400px;
