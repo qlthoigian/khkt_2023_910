@@ -153,7 +153,7 @@ body {
 }
 .container {
   position: relative;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 25px;
   color: #fff;
@@ -378,7 +378,6 @@ body {
 .container .right {
   position: relative;
   min-width: 30%;
-  min-height: 100%;
   padding: 20px 0;
 }
 
@@ -687,8 +686,7 @@ body {
 .img-area {
 	position: relative;
 	width: 100%;
-	max-height: 450px;
-  min-height: 300px;	
+	height: 300px;
 	margin-bottom: 30px;
 	border-radius: 15px;
 	overflow: hidden;
