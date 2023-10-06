@@ -39,8 +39,8 @@
 }
 
 .wapper {
-  width: 30%;     
-  min-height: flex;
+  width: 30%; 
+  min-height: 100%;    
   background-color: #fff;
   padding: 25px;
   width: 100%;
@@ -153,8 +153,7 @@ body {
 }
 .container {
   position: relative;
-  width: 1400px;
-  max-height: 900px;
+  width: 90%;
   margin: 0 auto;
   padding: 25px;
   color: #fff;
@@ -673,7 +672,8 @@ body {
 
 .wap1{
   background-color: #fff;
-  height: 3.5%;
+  width: 100%;
+  min-height: 3.5%;
 }
 
 .wap {
